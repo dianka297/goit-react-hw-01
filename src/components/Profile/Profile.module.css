@@ -1,0 +1,66 @@
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.userAvatarImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(71, 70, 70);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    color: gray;
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid gray;
+    background-color: rgb(221, 218, 218);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 20px)/3);
+    padding: 6px;
+    border-right: 2px solid gray;
+}
+
+.item:last-child {
+    border-right: none;
+}
+
+.itemText {
+    font-size: 14px;
+}
+
+.textNumbers {
+    font-weight: bold;
+    font-size: 14px;
+}
